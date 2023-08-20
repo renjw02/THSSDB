@@ -1,0 +1,13 @@
+use db2;
+select * from t1;
+begin transaction;
+savepoint asd1;
+insert into t1 values(4);
+select * from t1;
+savepoint asd2;
+insert into t1 values(5);
+select * from t1;
+rollback to savepoint asd2;
+select * from t1;
+rollback;
+select * from t1;

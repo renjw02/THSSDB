@@ -1,0 +1,14 @@
+DATABASE_NAME db_performance
+TABLE_NAME test_table0
+5000,1198
+PRIMARY_KEY_INDEX 0
+id INT true true 0
+column1 LONG false false 0
+column2 FLOAT false false 0
+column3 DOUBLE false false 0
+column4 STRING false false 5
+column5 INT false false 0
+column6 LONG false false 0
+column7 FLOAT false false 0
+column8 DOUBLE false false 0
+column9 STRING false false 5
